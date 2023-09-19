@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom"
 import styled from "styled-components"
 import Search from "../components/Search"
 import Category from "../components/Category"
-import { AiFillHeart, AiOutlineHeart } from "react-icons/ai"
+import {  AiOutlineHeart } from "react-icons/ai"
 
 const add_to_fav= (item)=>{
 let fav_datas = JSON.parse(localStorage.getItem('favourites'))||[] 
